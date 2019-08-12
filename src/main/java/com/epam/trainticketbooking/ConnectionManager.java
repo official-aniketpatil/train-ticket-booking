@@ -10,6 +10,8 @@ import java.util.Properties;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
+import com.epam.trainticketbooking.exceptions.DBConnectionFailedException;
+
 public class ConnectionManager {
 	private static final String PROPERTY_FILE_URL = "src/main/resources/application.properties";
 	private static Properties properties;
@@ -36,10 +38,10 @@ public class ConnectionManager {
 					"jdbc:" + properties.getProperty("db.dbms") + "://" + properties.getProperty("db.serverName") + ":"
 							+ properties.getProperty("db.port") + "/" + properties.getProperty("db.name"),
 					properties.getProperty("db.user"), properties.getProperty("db.password"));
+			return connection;
 		} catch (SQLException e) {
-			logger.error("connection to database failed");
+			throw new DBConnectionFailedException("unable to connect database");
 		}
 
-		return connection;
 	}
 }
