@@ -1,4 +1,4 @@
-package com.epam.train_ticket_booking.model;
+package com.epam.trainticketbooking.model;
 
 public class Train {
 	private long id;

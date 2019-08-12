@@ -1,4 +1,4 @@
-package com.epam.train_ticket_booking.model;
+package com.epam.trainticketbooking.model;
 
 public class Passenger {
 	private long id;
@@ -58,10 +58,15 @@ public class Passenger {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (getClass() != obj.getClass()) {
+		if(this == obj) {
+			return true;
+		}
+		if(obj == null) {
 			return false;
 		}
-		
+		if (!(obj instanceof Passenger)) {
+			return false;
+		}
 		Passenger other = (Passenger) obj;
 		return other.getId() == this.getId();
 	}
