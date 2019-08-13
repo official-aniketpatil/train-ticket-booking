@@ -17,6 +17,10 @@ public class TrainService {
 	private StationDaoImpl stationDao;
 	private Logger logger = LogManager.getLogger(TrainService.class);
 	
+	public TrainService(){
+		trainDao = new TrainDaoImpl();
+		stationDao = new StationDaoImpl();
+	}
 	public List<Train> findTrains(String source, String destination, Date date) {
 		List<Train> trains = trainDao.getByLocation(source, destination);
 		Iterator<Train> trainIterator = trains.iterator();

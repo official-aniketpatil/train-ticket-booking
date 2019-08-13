@@ -27,7 +27,7 @@ public class StationDaoImpl implements StationDao {
 			stmt.setLong(1, id);
 			rs = stmt.executeQuery();
 			while (rs.next()) {
-				station = rs.getString("station");
+				station = rs.getString("name");
 			}
 
 		} catch (DBConnectionFailedException ex) {

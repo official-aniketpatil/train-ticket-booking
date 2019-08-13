@@ -18,7 +18,7 @@ public class ApplicationStarter {
 		Date date;
 		try {
 			date = format.parse("12-08-2019");
-			trainService.findTrains("pune","bhopal",date);
+			trainService.findTrains("chennai","delhi",date);
 		} catch (ParseException e) {
 			logger.error(e.getMessage());
 		}
