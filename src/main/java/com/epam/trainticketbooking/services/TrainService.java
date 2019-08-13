@@ -1,4 +1,4 @@
-package com.epam.trainticketbooking;
+package com.epam.trainticketbooking.services;
 
 import com.epam.trainticketbooking.dao.impl.StationDaoImpl;
 import com.epam.trainticketbooking.dao.impl.TrainDaoImpl;
