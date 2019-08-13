@@ -4,14 +4,22 @@ public class Train {
 	private long id;
 	private String source;
 	private String destination;
-	private double fare;
+	private long distance;
+	private int acSeats;
+	private int sleeperSeats;
 	
-	public Train(long id, String source, String destination, double fare) {
+	public Train(long id, String source, String destination, long distance, int acSeats, int sleeperSeats) {
 		super();
 		this.id = id;
 		this.source = source;
 		this.destination = destination;
-		this.fare = fare;
+		this.distance = distance;
+		this.acSeats = acSeats;
+		this.sleeperSeats = sleeperSeats;
+	}
+
+	public Train() {
+		
 	}
 
 	public long getId() {
@@ -38,16 +46,34 @@ public class Train {
 		this.destination = destination;
 	}
 
-	public double getFare() {
-		return fare;
+	public double getDistance() {
+		return distance;
 	}
 
-	public void setFare(double fare) {
-		this.fare = fare;
+	public void setDistance(long distance) {
+		this.distance = distance;
+	}
+
+	public int getAcSeats() {
+		return acSeats;
+	}
+
+	public void setAcSeats(int acSeats) {
+		this.acSeats = acSeats;
+	}
+
+	public int getSleeperSeats() {
+		return sleeperSeats;
+	}
+
+	public void setSleeperSeats(int sleeperSeats) {
+		this.sleeperSeats = sleeperSeats;
 	}
 
 	@Override
 	public String toString() {
-		return "Train [id=" + id + ", source=" + source + ", destination=" + destination + ", fare=" + fare + "]";
+		return "Train [id=" + id + ", source=" + source + ", destination=" + destination + ", distance=" + distance
+				+ ", acSeats=" + acSeats + ", sleeperSeats=" + sleeperSeats + "]";
 	}
+
 }
