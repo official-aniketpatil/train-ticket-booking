@@ -1,5 +1,5 @@
 package com.epam.trainticketbooking.dao;
 
-public interface TrainDao {
+public interface StationDao {
 
 }

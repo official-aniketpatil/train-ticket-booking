@@ -31,4 +31,4 @@ use trainbooking;
 
 -- query to get all available trains from route train_id 
 -- select train_id from routes where station_id = 6 and train_id in (select train_id from routes where station_id = 4);
--- select train_id from availability where date = "12-08-2019";
+select * from trains where id in (select train_id from availability where date = "12-08-2019" and ac_seats> 0 and sleeper_seats>0);
