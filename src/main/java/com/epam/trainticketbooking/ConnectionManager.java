@@ -38,7 +38,6 @@ public class ConnectionManager {
 					"jdbc:" + properties.getProperty("db.dbms") + "://" + properties.getProperty("db.serverName") + ":"
 							+ properties.getProperty("db.port") + "/" + properties.getProperty("db.name"),
 					properties.getProperty("db.user"), properties.getProperty("db.password"));
-			logger.trace("connected to database");
 			return connection;
 		} catch (SQLException e) {
 			throw new DBConnectionFailedException("unable to connect database");

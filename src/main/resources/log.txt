@@ -63,4 +63,87 @@ com.epam.trainticketbooking.ApplicationStarter:com.epam.trainticketbooking.Appli
 ""17:32:25.540 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
 ""17:32:25.554 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
 ""17:32:25.556 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)ogger{36} - Train [id=2, source=chennai, destination=delhi, distance=7, acSeats=10, sleeperSeats=10]sg
+""10:07:59.221 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.278 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.310 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.325 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.343 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.343 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.375 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.390 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:07:59.390 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)ogger{36} - Train [id=2, source=chennai, destination=delhi, distance=7, acSeats=10, sleeperSeats=10]sg
+""10:51:42.493 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""10:51:42.493 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
+""10:52:01.118 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)ogger{36} - Enter
+1) source
+sg
+""10:52:01.118 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)ogger{36} - 2)Destination
+sg
+""10:52:01.118 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)ogger{36} - 3)Date of travelling i.e (dd-MM-yyyy)sg
+""10:52:12.574 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.601 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.617 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.643 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.659 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.675 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.690 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.690 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.706 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.706 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.721 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.721 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)ogger{36} - Train [id=1, source=hyderabad, destination=delhi, distance=4, acSeats=10, sleeperSeats=10]sg
+""10:52:12.737 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.744 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:52:12.744 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:33)ogger{36} - Train [id=2, source=chennai, destination=delhi, distance=7, acSeats=10, sleeperSeats=10]sg
+""10:56:00.663 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""10:56:00.679 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
+""10:56:09.138 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)ogger{36} - Enter
+1) source
+sg
+""10:56:09.138 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)ogger{36} - 2)Destination
+sg
+""10:56:09.145 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)ogger{36} - 3)Date of travelling i.e (dd-MM-yyyy)sg
+""10:56:31.055 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.082 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.097 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.113 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.129 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.140 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.156 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.156 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.171 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.171 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.187 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.187 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)ogger{36} - Train [id=1, source=hyderabad, destination=delhi, distance=4, acSeats=10, sleeperSeats=10]sg
+""10:56:31.203 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.203 [main] com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)evel com.epam.trainticketbooking.ConnectionManager.getDBConnection(ConnectionManager.java:41)ogger{36} - connected to databasesg
+""10:56:31.203 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)ogger{36} - Train [id=2, source=chennai, destination=delhi, distance=7, acSeats=10, sleeperSeats=10]sg
+""12:14:35.037 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""12:14:35.039 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
+""12:14:35.058 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""12:14:35.060 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
+""12:14:37.860 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:26)ogger{36} - Enter
+1) source
+sg
+""12:14:37.860 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:27)ogger{36} - 2)Destination
+sg
+""12:14:37.860 [main] com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)evel com.epam.trainticketbooking.ConsoleOperations.showAvailableTrainsMenu(ConsoleOperations.java:28)ogger{36} - 3)Date of travelling i.e (dd-MM-yyyy)sg
+""12:15:07.931 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)ogger{36} - Train [id=1, source=hyderabad, destination=delhi, distance=4, acSeats=10, sleeperSeats=10]sg
+""12:15:07.950 [main] com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)evel com.epam.trainticketbooking.services.TrainService.findTrains(TrainService.java:31)ogger{36} - Train [id=2, source=chennai, destination=delhi, distance=7, acSeats=10, sleeperSeats=10]sg
+""12:31:40.745 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""12:31:40.745 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
+""12:31:55.835 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:21)ogger{36} - Enter
+1) Show Available Trains
+sg
+""12:31:55.882 [main] com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)evel com.epam.trainticketbooking.ConsoleOperations.showServiceMenu(ConsoleOperations.java:22)ogger{36} - 2)Book trainsg
 "

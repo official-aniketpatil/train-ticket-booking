@@ -38,7 +38,7 @@ public class TrainDaoImpl implements TrainDao {
 				PreparedStatement stmt = conn.prepareStatement(GET_BY_ID)) {
 			stmt.setLong(1, id);
 			rs = stmt.executeQuery();
-
+			
 			while (rs.next()) {
 				String source = stationDao.getById(rs.getLong("source_station"));
 				String destination = stationDao.getById(rs.getLong("destination_station"));
@@ -119,7 +119,7 @@ public class TrainDaoImpl implements TrainDao {
 		ResultSet rs = null;
 
 		try (Connection conn = ConnectionManager.getDBConnection();
-				PreparedStatement stmt = conn.prepareStatement(GET_AVAILABLE_SEATS);) {
+				PreparedStatement stmt = conn.prepareStatement(CHECK_AVAILABILITY);) {
 			stmt.setLong(1, trainId);
 			stmt.setString(2, date.toString());
 			rs = stmt.executeQuery();

@@ -8,26 +8,24 @@ import java.util.Map;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import com.epam.trainticketbooking.dao.impl.StationDaoImpl;
 import com.epam.trainticketbooking.dao.impl.TrainDaoImpl;
 import com.epam.trainticketbooking.model.Train;
 
 public class TrainService {
 	private TrainDaoImpl trainDao;
-	private StationDaoImpl stationDao;
 	private Logger logger = LogManager.getLogger(TrainService.class);
-	
-	public TrainService(){
+
+	public TrainService() {
 		trainDao = new TrainDaoImpl();
-		stationDao = new StationDaoImpl();
 	}
+
 	public List<Train> findTrains(String source, String destination, Date date) {
 		List<Train> trains = trainDao.getByLocation(source, destination);
 		Iterator<Train> trainIterator = trains.iterator();
-		while(trainIterator.hasNext()) {
+		while (trainIterator.hasNext()) {
 			Train train = trainIterator.next();
-			if(trainDao.checkAvailability(train.getId(), date)) {
-				Map<String,Integer> seatTypeWithAvailableCount = trainDao.getAvailableSeats(train.getId(), date);
+			if (trainDao.checkAvailability(train.getId(), date)) {
+				Map<String, Integer> seatTypeWithAvailableCount = trainDao.getAvailableSeats(train.getId(), date);
 				train.setAcSeats(seatTypeWithAvailableCount.get("AC"));
 				train.setSleeperSeats(seatTypeWithAvailableCount.get("SLEEPER"));
 				logger.trace(train.toString());
